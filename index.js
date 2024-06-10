@@ -17,8 +17,6 @@ async function main() {
     "latest"
   );
 
-  console.log(nonce);
-
   let transaction = {
     to: DESTINATION,
     value: Utils.parseEther("0.001"), // 0.001 worth of ETH being sent
